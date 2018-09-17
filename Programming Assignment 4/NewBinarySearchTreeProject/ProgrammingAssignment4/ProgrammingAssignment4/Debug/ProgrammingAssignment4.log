@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\hunter\desktop\csce 221\programming assignment 4\newbinarysearchtreeproject\programmingassignment4\btree.h(63): warning C4522: 'BTree<int>': multiple assignment operators specified
+  c:\users\hunter\desktop\csce 221\programming assignment 4\newbinarysearchtreeproject\programmingassignment4\main.cpp(13): note: see reference to class template instantiation 'BTree<int>' being compiled
+  ProgrammingAssignment4.vcxproj -> C:\Users\Hunter\Desktop\CSCE 221\Programming Assignment 4\NewBinarySearchTreeProject\ProgrammingAssignment4\Debug\ProgrammingAssignment4.exe

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\1l" />
+    <None Include="..\1p" />
+    <None Include="..\1r" />
+    <None Include="..\2l" />
+    <None Include="..\2p" />
+    <None Include="..\2r" />
+    <None Include="..\3l" />
+    <None Include="..\3p" />
+    <None Include="..\3r" />
+    <None Include="..\4l" />
+    <None Include="..\4p" />
+    <None Include="..\4r" />
+    <None Include="..\5l" />
+    <None Include="..\5p" />
+    <None Include="..\5r" />
+    <None Include="..\6l" />
+    <None Include="..\6p" />
+    <None Include="..\6r" />
+    <None Include="..\7l" />
+    <None Include="..\7p" />
+    <None Include="..\7r" />
+    <None Include="..\8l" />
+    <None Include="..\8p" />
+    <None Include="..\8r" />
+    <None Include="..\9l" />
+    <None Include="..\9p" />
+    <None Include="..\9r" />
+    <None Include="..\10l" />
+    <None Include="..\10p" />
+    <None Include="..\10r" />
+    <None Include="..\11l" />
+    <None Include="..\11p" />
+    <None Include="..\11r" />
+    <None Include="..\12l" />
+    <None Include="..\12p" />
+    <None Include="..\12r" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\BTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

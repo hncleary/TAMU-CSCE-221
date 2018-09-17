@@ -1,0 +1,62 @@
+﻿  text_freq.cpp
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(61): error C2440: 'return': cannot convert from 'int' to 'my_map<std::string,double>'
+  c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(61): note: No constructor could take the source type, or constructor overload resolution was ambiguous
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(78): error C2059: syntax error: 'while'
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(79): error C2143: syntax error: missing ';' before '{'
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(79): error C2447: '{': missing function header (old-style formal list?)
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(106): error C3927: '->': trailing return type is not allowed after a non-function declarator
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(106): error C3484: syntax error: expected '->' before the return type
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(106): error C3613: missing return type after '->' ('int' assumed)
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(106): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(106): error C2146: syntax error: missing ';' before identifier 'close'
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(128): error C2059: syntax error: 'for'
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(128): error C2143: syntax error: missing ')' before ';'
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(128): error C2143: syntax error: missing ';' before '!='
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(128): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(128): error C2371: 'it': redefinition; different basic types
+  c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(108): note: see declaration of 'it'
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(128): error C2059: syntax error: '++'
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(128): error C2059: syntax error: ')'
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(128): error C2143: syntax error: missing ';' before '{'
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(128): error C2447: '{': missing function header (old-style formal list?)
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(146): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(146): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+  c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(146): note: The initializer contains too many elements
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(147): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(147): error C2365: 'std': redefinition; previous definition was 'namespace'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.12.25827\include\iomanip(19): note: see declaration of 'std'
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(147): error C2059: syntax error: ':'
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(147): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+  c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(147): note: The initializer contains too many elements
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(151): error C2059: syntax error: 'for'
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(151): error C2143: syntax error: missing ')' before ';'
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(151): error C2143: syntax error: missing ';' before '<'
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(151): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(151): error C2059: syntax error: '++'
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(151): error C2059: syntax error: ')'
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(151): error C2143: syntax error: missing ';' before '{'
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(151): error C2447: '{': missing function header (old-style formal list?)
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(160): error C2143: syntax error: missing ';' before '<<'
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(160): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(161): error C2143: syntax error: missing ';' before '<<'
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(161): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(161): error C2086: 'int cout': redefinition
+  c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(160): note: see declaration of 'cout'
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(163): error C2059: syntax error: 'for'
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(163): error C2143: syntax error: missing ')' before ';'
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(163): error C2143: syntax error: missing ';' before '<'
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(163): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(163): error C2086: 'int i': redefinition
+  c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(151): note: see declaration of 'i'
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(163): error C2059: syntax error: '++'
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(163): error C2059: syntax error: ')'
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(163): error C2143: syntax error: missing ';' before '{'
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(163): error C2447: '{': missing function header (old-style formal list?)
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(172): error C2059: syntax error: 'return'
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(173): error C2059: syntax error: '}'
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(173): error C2143: syntax error: missing ';' before '}'
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(176): error C2143: syntax error: missing ';' before '{'
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\text_freq.cpp(176): error C2447: '{': missing function header (old-style formal list?)
+  main.cpp
+c:\users\hunter\desktop\csce 221\programming assignment 6\pa6visualstudio\programmingassignment6\main.cpp(25): error C3861: 'create_freq_map': identifier not found
+  Generating Code...

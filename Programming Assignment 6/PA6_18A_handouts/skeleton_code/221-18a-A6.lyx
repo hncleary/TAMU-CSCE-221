@@ -1,0 +1,2840 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\headheight 0in
+\headsep 0in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+CSCE 221 Cover Page
+\begin_inset Newline newline
+\end_inset
+
+ Programming Assignment #6 
+\begin_inset Newline newline
+\end_inset
+
+Due 
+\series bold
+April 29
+\series default
+ by midnight to eCampus
+\end_layout
+
+\begin_layout Author
+First Name
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+Last Name 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+UIN
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Date
+User Name 
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+E-mail address
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+Please list all sources in the table below including web pages which you
+ used to solve or implement the current homework.
+ If you fail to cite sources you can get a lower number of points or even
+ zero.
+ According to the University Regulations, Section 42, scholastic dishonesty
+ are including: acquiring answers from any unauthorized source, working
+ with another person when not specifically permitted, observing the work
+ of other students during any exam, providing answers when not specifically
+ authorized to do so, informing any person of the contents of an exam prior
+ to the exam, and failing to credit sources used.
+ Disciplinary actions range from grade penalties to expulsion read more:
+ 
+\begin_inset CommandInset href
+LatexCommand href
+name "Aggie Honor System Office"
+target "http://aggiehonor.tamu.edu/"
+
+\end_inset
+
+ 
+\begin_inset VSpace defskip
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Type of sources 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+People
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Web pages (provide URL) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Printed material
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Other Sources 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Quotation
+I certify that I have listed all the sources that I used to develop the
+ solutions/codes to the submitted work.
+\end_layout
+
+\begin_layout Quotation
+“On my honor as an Aggie, I have neither given nor received any unauthorized
+ help on this academic work.” 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="6">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Your Name 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Date 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size larger
+Programming Assignment #6
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\size large
+Due 
+\series bold
+\emph on
+April 29
+\series default
+\emph default
+ to submit to eCampus
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In this project you will be implementing a map data structure.
+ A map is a way to store data with a key and a value.
+ Whenever we store something in the map, we say I would like to store some
+ data, with a key, and when we want to retrieve something from the map,
+ we say that we have a key, and we ask the map for the value that is linked
+ to that key.
+ We can think of a vector as a specific map that has an integer key and
+ a templated value.
+ So, any time you use v[1], you’re asking v to return the value mapped to
+ 1.
+ This property makes maps very useful when we want to index data by other
+ types than just integers.
+ 
+\end_layout
+
+\begin_layout Standard
+The examples STL map functionalities:
+\end_layout
+
+\begin_layout Itemize
+
+\color black
+Declaration of the map object, 
+\family typewriter
+std_map
+\family default
+:
+\begin_inset Newline newline
+\end_inset
+
+
+\family typewriter
+ map<string,double> std_map;
+\end_layout
+
+\begin_layout Itemize
+
+\color black
+Adding a new entry, key and value, to the map: 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\family typewriter
+\color black
+std_map["PA5" ]= 5.5; 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\color black
+Searching for a 
+\family typewriter
+value
+\family default
+ using a given 
+\family typewriter
+key
+\family default
+ in a map
+\family typewriter
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\family typewriter
+\color black
+double val= std_map["PA5"];
+\color blue
+ 
+\end_layout
+
+\begin_layout Standard
+
+\color black
+However, if a 
+\family typewriter
+key
+\family default
+ does not exit the default 
+\family typewriter
+value 0.0
+\family default
+ will be returned
+\family typewriter
+, 
+\family default
+e.g.
+
+\family typewriter
+ double val= std_map["PA4"]
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\color black
+Updating a value using for a given 
+\family typewriter
+key
+\family default
+ in a map
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\family typewriter
+\color black
+std_map["PA5" ]= 100;
+\color blue
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\color black
+When we want to display a map it should appear as a sorted sequence of pairs
+\family typewriter
+: key value
+\family default
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\family typewriter
+\color black
+“a” 123 
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\color black
+“b” 22 
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\color black
+“c” 4343 
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\color black
+“eff” 123123123123 
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+\color black
+“PA5” 191991
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+When you create a map from an input file that the file that the file should
+ contains pairs, usually unsorted:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\family typewriter
+“PA5” 191991 
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+“a” 123 
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+“eff” 123123123123 
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+“b” 22 
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+“c” 4343 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+A map data structure implementation:
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+To create a map, we have three options: we can either use a Hash table,
+ a Tree, or a sorted vector.
+ In the hash table version, you use a hash of the key as an index.
+ In the tree version we use a regular tree but we insert in key_value objects.
+ These objects just store pairs, a key and a value and have comparison operators
+ that only care about the keys.
+ In the vector implementation you still use the key_value pairs, but you
+ just insert them in sorted order, with respect to key, into your map.
+\end_layout
+
+\begin_layout Standard
+When you open up your skeleton code you should see 
+\emph on
+my_map.h
+\emph default
+ and 
+\emph on
+key_value.h
+\emph default
+.
+ 
+\emph on
+key_value
+\emph default
+ is a wrapper around a key and a value that has comparison operators, you
+ shouldn’t need to mess with this file.
+ The next is 
+\emph on
+my_map
+\emph default
+.
+ In my_map you will need use the binary tree you made in PA 4, or the STL
+ vector to create the map.
+ The most important thing in 
+\emph on
+my_map
+\emph default
+ is the brackets operator.
+ When you implement your brackets operator make sure it works exactly the
+ same as the std map, which is described above.
+ You will also need to make a constructor, copy constructor, move constructor,
+ output operator, and input operator.
+ 
+\end_layout
+
+\begin_layout Standard
+If you use the your own Binary tree you will be given a small bonus (10
+ points), because several parts of the assignment become harder with a binary
+ tree.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Iterators
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+For a map we don’t have a good way to go through each element (for example
+ trying to print out your map), so we will have to create iterators for
+ our map.
+ When you make your iterators make sure they go through the tree in an 
+\series bold
+inorder traversal
+\series default
+, or in your vector printing out in sorted order.
+\end_layout
+
+\begin_layout Standard
+A good reference for iterators is the textbook on page 368.
+ A better reference is your 121 book by Stroustrup, on page 720, and 1139.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Iterator Refresher
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+You probably haven’t noticed iterators since 121, but that’s fine, here
+ we’ll go through the basics again.
+ 
+\end_layout
+
+\begin_layout Standard
+On all data structures we have a beginning and an ending to our data and
+ some way to step through it.
+ So, we create iterators as a nice way to do that no matter what data structure
+ were in.
+ So in our code we have a 
+\family typewriter
+begin()
+\family default
+, 
+\family typewriter
+end()
+\family default
+, and in the iterator class itself we have an 
+\family typewriter
+operator++
+\family default
+ function.
+ When we combine all three of these functions we have an effective way of
+ going through every element in a list one item at a time.
+ Note, sometimes the 
+\family typewriter
+operator—
+\family default
+ function is implemented in iterators, this just goes backwards, and we’re
+ not doing that for this project.
+ The 
+\family typewriter
+begin
+\family default
+ and 
+\family typewriter
+end
+\family default
+ functions return iterator objects (in our case the iterator class is called
+ 
+\family typewriter
+map_iter
+\family default
+) so the begin should give us an iterator to the start of our data structure
+ and the end should return one past the end of our data structure (think
+ of it how in a for loop we see if our loop variable has gone one past the
+ end rather than being on the end itself).
+ The 
+\family typewriter
+operator++
+\family default
+ should step through our data structure one element at a time.
+ 
+\end_layout
+
+\begin_layout Standard
+For example, if we made an array iterator.
+ Inside of our iterator class we would store a pointer, which is where we
+ are inside of the array.
+ The begin() function would return a pointer to the first element of the
+ array.
+ The operator++ function would increment the pointer to the next element
+ in the array.
+ Finally the end() function would return one past the end of the array.
+ 
+\end_layout
+
+\begin_layout Standard
+Once we have created an iterator for our data structure we can do cool things
+ like this 
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+for(auto i=dataStructure.begin(); i!=dataStructure.end(); i++ ) 
+\end_layout
+
+\begin_layout Standard
+This for loop will go through any data structure as long as it has implemented
+ iterators.
+ With iterators you can also do other useful things like finding and summing
+ elements without thinking about the underlying structure of the object.
+ You might have noticed that I used 
+\family typewriter
+auto
+\family default
+ for the type of the iterator, this is because iterator types are gross
+ and really long, so this is one of the few times is recommended using auto
+ instead of just writing out the type.
+\end_layout
+
+\begin_layout Standard
+So if you do 
+\end_layout
+
+\begin_layout LyX-Code
+Vector<int> v; 
+\end_layout
+
+\begin_layout LyX-Code
+v.push_back(1); 
+\end_layout
+
+\begin_layout LyX-Code
+v.push_back(2); 
+\end_layout
+
+\begin_layout LyX-Code
+v.push_back(3)
+\family typewriter
+; 
+\end_layout
+
+\begin_layout Standard
+and then
+\end_layout
+
+\begin_layout LyX-Code
+for(auto i=v.begin(); i!=v.end(); i++) 
+\end_layout
+
+\begin_layout LyX-Code
+cout << *i << endl;
+\family typewriter
+ 
+\end_layout
+
+\begin_layout Standard
+The operator
+\family typewriter
+ *
+\family default
+ “dereferences” the iterator.
+ In this case it just returns what is stored at that location.
+ You should see:
+\end_layout
+
+\begin_layout LyX-Code
+1
+\end_layout
+
+\begin_layout LyX-Code
+2
+\end_layout
+
+\begin_layout LyX-Code
+3
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+The map_iter 
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Vector Version
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+The vector implementation for iterators should be very similar to the array
+ example above.
+ Although I would not use pointers directly, instead just keep and integer
+ index for where the iterator is currently in the array.
+ the 
+\family typewriter
+begin()
+\family default
+function should just return an iterator to the first element in the vector,
+ and then the 
+\family typewriter
+end()
+\family default
+should return one past the end of the vector (just set the index to vec.size()).
+ the 
+\family typewriter
+operator++
+\family default
+ function should just increment index.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\emph on
+Tree Version
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+So, in our map we will need to be creating an iterator.
+ For this portion if you choose to use the tree from PA4 you will need to
+ make a whole new iterator from scratch (using the skeleton code we give
+ you).
+ The first thing you will need to do is find the beginning.
+ Notice that since we are doing an inorder traversal the root is not the
+ first element.
+ The most left node is.
+ To get this you will need to traverse down the tree to find the most left
+ node and set that as your starting point whenever the 
+\family typewriter
+begin()
+\family default
+ function is called.
+ 
+\end_layout
+
+\begin_layout Standard
+The next part is finding the end.
+ For this you should notice that the end is the element after the real end
+ of the tree.
+ You might want to look at what an inorder traversal looks like to see what
+ node should come after the last real node (it should just be 
+\family typewriter
+nullptr
+\family default
+).
+ 
+\end_layout
+
+\begin_layout Standard
+The final part is the 
+\family typewriter
+operator++
+\family default
+ function.
+ For this you must do the inorder traversal iteratively.
+ You should definitely do a couple inorder traversals by hand to get the
+ hang of it.
+ In general, though you should notice that in an inorder traversal you always
+ go to the left most element in your subtree and one by one work your way
+ up to a branch you haven’t visited yet, and then if there is a right branch
+ take it and start over.
+ 
+\end_layout
+
+\begin_layout Standard
+We have included a couple helper functions that haven’t been completed yet,
+ don’t feel like you have to implement and use these functions, but we did
+ use them in our solution.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Example
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Let our map have an underlying tree that looks like
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename map.pdf
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We iterator over it using this code (the values being displayed are the
+ key values for our map) 
+\end_layout
+
+\begin_layout LyX-Code
+for(auto i=map.begin(); i!=map.end(); i++) 
+\end_layout
+
+\begin_layout LyX-Code
+   cout << *i << endl;
+\end_layout
+
+\begin_layout Standard
+We will get 
+\end_layout
+
+\begin_layout LyX-Code
+2
+\end_layout
+
+\begin_layout LyX-Code
+5
+\end_layout
+
+\begin_layout LyX-Code
+7
+\end_layout
+
+\begin_layout LyX-Code
+10
+\end_layout
+
+\begin_layout LyX-Code
+12 
+\end_layout
+
+\begin_layout LyX-Code
+15 
+\end_layout
+
+\begin_layout LyX-Code
+17 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Text Frequency
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+For the next part you are going to do some text frequency analysis.
+ You should create an object 
+\family typewriter
+textFrequencies
+\family default
+:
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+my_map<string,double>textFrequencies;
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Reading File 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+You should complete the 
+\family typewriter
+read_file function
+\family default
+, which just reads the whole file into one string.
+ Next remove all of the punctuation from the file using the 
+\family typewriter
+remove_punctuation
+\family default
+ function (this is already done for you).
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Counting
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Complete the function 
+\family typewriter
+create_freq_map
+\family default
+ which takes the string that you generated previously and create the map
+ from each word in the text.
+ First it would be useful to use a string stream for parsing that big string
+ of text.
+ This will create a string stream for you to use.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+stringstream ss(text)
+\family default
+ ;
+\end_layout
+
+\begin_layout Standard
+Once you have that string stream you can use it just like a file stream
+ (or 
+\family typewriter
+cin
+\family default
+)
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+ss >> word; 
+\end_layout
+
+\begin_layout Standard
+To do this you should use the brackets operator you implemented earlier.
+ The first step of this will pass over each word in the text and count how
+ many times you see that word, it would be helpful to use.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+map["word"]++
+\family default
+ ;
+\end_layout
+
+\begin_layout Standard
+Now after you have counted everything you need to divide each word count
+ by the total count of words in the text.
+ First you need to find every word in your map.
+ To do this we will use iterators.
+ If you implemented your begin, end, and 
+\family typewriter
+++ operators
+\family default
+ on your iterator properly you should be able to use this for loop.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+for(auto word: freq_map);
+\family default
+ 
+\end_layout
+
+\begin_layout Standard
+That for loop will find every word in your map, and then you just use this
+ calculation to generate the frequency.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\family typewriter
+map[word] /=total_cnt;
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Output
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Complete the 
+\family typewriter
+vectorize_map
+\family default
+ function, which translates your map into a vector.
+ This should use your 
+\family typewriter
+my_map
+\family default
+ iterators.
+ Next finish the 
+\family typewriter
+print_top_20_freqs
+\family default
+ function which should print the 20 most frequent words.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Filter
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+You should notice that you see a lot of meaningless words (the, and, of,
+ for …) in your top 20 words.
+ To fix this, make a list of words that you would want to filter out and
+ remove them from your frequency vector.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Analysis
+\series default
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Now print out your filtered output and create a table of words and their
+ frequencies.
+ Finally make a plot of words on the x axis and their frequencies on the
+ y axis.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Hints 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+All operations in your map should rely on operations from your binary tree/vecto
+r, so for example don’t try to rewrite the insert function, because you
+ already did it.
+ Also if you look at the start of your 
+\family typewriter
+my_map
+\family default
+, you have a 
+\family typewriter
+BTree<key_value<T,E>>
+\family default
+, which is the main data structure for your map, don’t try to change its
+ type.
+ 
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\series bold
+Report
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Explain how your brackets operator works.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What is the running time expressed in terms of big-Oh asymptotic notation
+ of your brackets operator?
+\end_layout
+
+\begin_layout Enumerate
+How could you improve the running time? Here don’t think about micro optimizatio
+ns, think about changing data structures or major algorithm changes.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Explain what the advantages and disadvantages of implementing map with the
+ following data structures 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+A vector of key_values b.
+ 
+\end_layout
+
+\begin_layout Enumerate
+A tree of key_values.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Regular binary
+\end_layout
+
+\begin_layout Enumerate
+Red Black
+\end_layout
+
+\begin_layout Enumerate
+AVL 
+\end_layout
+
+\begin_layout Enumerate
+2-4 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+A Hash Table of key_values 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Explain one real life use case for a map, you should say specifically why
+ it would benefit from using a map over a simpler data structure like a
+ vector.
+ This doesn’t have to be something that exists currently, it’s just an idea
+ for how you could use a map.
+ Example (don’t use this one) storing word frequencies for a large document.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Grading 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+When we grade this, we will not be using your main file, we will be using
+ our own.
+ Because of this do not change the file name that holds the main function,
+ also make sure you use a make file.
+ When we grade we will be making sure that you map does not crash/throw
+ exceptions under any circumstances.
+ We will be taking some input from file and storing them into your map,
+ performing some operations using the brackets operator, then printing the
+ map out, your map should print in sorted order.
+ We will provide a 
+\family typewriter
+main
+\family default
+ function that will test all of the same operators, but with different inputs.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="12" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Points distribution
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Using PA4 Tree
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+15
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ Input/output operators 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ Constructors
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Brackets adding
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Brackets searching
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Brackets search miss
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Brackets update
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Iterator 
+\family typewriter
+begin()/end()
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Iterator 
+\family typewriter
+operator++
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Report
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Total
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+100
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Section*
+
+\end_layout
+
+\begin_layout LyX-Code
+
+\end_layout
+
+\end_body
+\end_document

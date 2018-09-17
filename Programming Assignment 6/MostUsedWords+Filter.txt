@@ -1,0 +1,27 @@
+Top 20 Most Frequent Words in C:\Users\Hunter\Desktop\CSCE 221\Programming Assignment 6\PA6_18A_handouts\TFOTR.txt
+(Excluding words that are not consequential)
+Removed: the, and, of, to, a, in, was, he, I, that, it, is, as, for, had, on...
+
+Frequency    ---       Word
+---------------------------
+
+1420          ---      his
+1414          ---      they
+1282          ---      you
+1253          ---      not
+1154          ---      said
+947          ---      have
+670          ---      all
+669          ---      from
+595          ---      their
+578          ---      Frodo
+533          ---      there
+511          ---      will
+500          ---      out
+475          ---      by
+475          ---      up
+444          ---      them
+443          ---      my
+442          ---      now
+441          ---      into
+423          ---      him

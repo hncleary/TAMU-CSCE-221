@@ -1,0 +1,320 @@
+%% LyX 2.2.3 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english]{article}
+\usepackage{lmodern}
+\renewcommand{\sfdefault}{lmss}
+\usepackage{courier}
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+\usepackage{geometry}
+\geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in,headheight=0in,headsep=0in}
+\usepackage[active]{srcltx}
+\usepackage{color}
+\usepackage{babel}
+\usepackage[unicode=true]
+ {hyperref}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+\newcommand{\noun}[1]{\textsc{#1}}
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+\newenvironment{lyxcode}
+{\par\begin{list}{}{
+\setlength{\rightmargin}{\leftmargin}
+\setlength{\listparindent}{0pt}% needed for AMS classes
+\raggedright
+\setlength{\itemsep}{0pt}
+\setlength{\parsep}{0pt}
+\normalfont\ttfamily}%
+ \item[]}
+{\end{list}}
+
+\makeatother
+
+\begin{document}
+\begin{center}
+\textbf{\large{}CSCE 221 Assignment 4 Cover Page}\\
+\bigskip{}
+\par\end{center}
+
+First Name~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Last
+Name ~~~~~~~~~~~~~~~~~~~~~~~~UIN~~~~~~~~~~~~~~\bigskip{}
+
+User Name ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~E-mail
+address~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\medskip{}
+
+Please list all sources in the table below including web pages which
+you used to solve or implement the current homework. If you fail to
+cite sources you can get a lower number of points or even zero, read
+more on Aggie Honor System Office website: \texttt{\href{http://aggiehonor.tamu.edu/}{http://aggiehonor.tamu.edu/}}\medskip{}
+\medskip{}
+\noindent \begin{flushleft}
+\begin{tabular}{|c|c|c|c|c|}
+\hline 
+Type of sources  & ~~~~~~~~~~~~~~~~~~~~~~~ & ~~~~~~~~~~~~~~~~~~~~~~~~ & ~~~~~~~~~~~~~~~~~~~~~~~ & ~~~~~~~~~~~~~~~~~~~~~~~\tabularnewline
+ &  &  &  & \tabularnewline
+\hline 
+People &  &  &  & \tabularnewline
+ &  &  &  & \tabularnewline
+\hline 
+Web pages (provide URL)  &  &  &  & \tabularnewline
+ &  &  &  & \tabularnewline
+\hline 
+Printed material &  &  &  & \tabularnewline
+ &  &  &  & \tabularnewline
+\hline 
+Other Sources  &  &  &  & \tabularnewline
+ &  &  &  & \tabularnewline
+\hline 
+\end{tabular}
+\par\end{flushleft}
+
+\medskip{}
+\medskip{}
+
+\noindent I certify that I have listed all the sources that I used
+to develop the solutions/codes to the submitted work.
+
+\noindent \emph{On my honor as an Aggie, I have neither given nor
+received any unauthorized help on this academic work}.
+
+\bigskip{}
+\bigskip{}
+
+\begin{tabular}{cccccc}
+Your Name  & ~~~~~~~~~~~~~~~~~~~~~~~~~~~ &  & ~~~~~~~~~~~~~~~~~~~~~ & Date  & ~~~~~~~~~~~~~~~~~~~~\tabularnewline
+\end{tabular}\pagebreak{}
+
+\begin{center}
+\textbf{\Large{}Assignment~4 (100 pts)\medskip{}
+}{\Large{}  }
+\par\end{center}{\Large \par}
+
+\begin{center}
+\textbf{Program: Due April 2 at 11:59 pm }
+\par\end{center}
+
+\noindent \textbf{Objectives: Programming (70 points)}
+
+Write a C++ program  to create binary search tree. Your program should
+empirically calculate the average search cost for each node in a tree
+and output a tree, level by level, in a text format. 
+\begin{enumerate}
+\item \textbf{Programming (70 points)}. 
+\begin{enumerate}
+\item Build a binary search tree according to the instructions provided
+below:
+\end{enumerate}
+\begin{itemize}
+\item Read integer data from the file designated by the user. Every line
+of the file contains one unique integer number (no duplicates). The
+size of input file is not given and the termination of input data
+is done by detecting EOF. 
+\item Print the input data on the screen for small input size.
+\item Create a binary search tree using the input data. Use the definition
+of a node and binary search tree provided in the \textbf{header file}.
+\item Calculate the search cost for each node \textbf{when it is inserted}
+\textcolor{black}{in} a binary search tree node. 
+\begin{itemize}
+\item A node element has at least two data fields: \texttt{Key} and \texttt{SearchCost}. 
+\item For each node, count and store the number of comparisons required
+for searching a node (i.e., the number of comparisons = the search
+cost for the node = $1+$ the depth of the node). 
+\end{itemize}
+\item \textcolor{black}{Print the tree data by performing in-order traversal
+operation.}\textcolor{red}{{} }If the number of nodes is less than $2^{4}$,
+print on the screen the resulting tree along with the information
+about the nodes (for each node, print its key and search cost). Otherwise,
+print this tree and information about its nodes into a file. See the
+example below. 
+\item \textcolor{black}{Print the binary search tree on the screen level-by-level
+in the case when the number of nodes is less than or equal to $2^{4}$
+}along with the information about the nodes (for each node, print
+its key and search cost).\textcolor{black}{{} For trees larger than
+$2^{4}$, you do not print to a file as the file may be large, see
+the example at 2.}
+\item Calculate the average search cost for all nodes in the tree\textcolor{red}{{}
+}\textcolor{black}{and print it.}
+\begin{itemize}
+\item Sum up the search cost over all the nodes in your tree as you traverse
+the tree by in-order traversal. 
+\item Divide the sum by the total number of nodes in the tree, and the result
+is the average search cost for all the tree nodes 
+\end{itemize}
+\item Print total number of nodes
+\end{itemize}
+\item Example:
+
+Input data:
+
+\texttt{\textcolor{black}{5}}
+
+\texttt{\textcolor{black}{3}}
+
+\texttt{\textcolor{black}{9}}
+
+\texttt{\textcolor{black}{7}}
+
+\texttt{\textcolor{black}{10}}
+
+\texttt{\textcolor{black}{11}}
+
+Create a binary search tree and provide information about each node
+when you display the tree.
+
+\begin{tabular}{cc}
+\texttt{Value} & \texttt{Search Cost }\tabularnewline
+5 & 1\tabularnewline
+3 & 2\tabularnewline
+9 & 2\tabularnewline
+7 & 3\tabularnewline
+10 & 3\tabularnewline
+11 & 4\tabularnewline
+\end{tabular}
+
+\texttt{\textcolor{black}{Total number of nodes is 6}}
+
+Use the in-order traversal to output a tree on the screen \textcolor{black}{or
+to a file}. Each node is represented in the following format: \\
+Value{[}SearchCost{]}:
+
+\texttt{3{[}2{]} 5{[}1{]} 7{[}3{]} 9{[}2{]} }\texttt{\textcolor{black}{10{[}3{]}
+11{[}4{]}}}
+
+Sum of the search cost over all the nodes in the tree is: $2+1+3+2{\color{red}{\color{black}+3+4=15}}$.
+Average search cost: ${\color{red}{\color{black}15/6=2.5}}$.
+
+\texttt{Average search cost is }\texttt{\textcolor{black}{2.5}}
+
+\textcolor{black}{Output the tree level-by-level to a file:}
+
+\texttt{\textcolor{black}{5{[}1{]}}}
+
+\texttt{\textcolor{black}{3{[}2{]} 9{[}2{]}}}
+
+\texttt{\textcolor{black}{X X 7{[}3{]} 10{[}3{]}}}
+
+\texttt{\textcolor{black}{X X X X X X X 11{[}4{]} }}
+\item Download files containing integer data from the course website. 
+\begin{enumerate}
+\item The files \emph{1p}, \emph{2p}, ..., \emph{12p} contain $2^{1}-1$,
+$2^{2}-1$,..., and $2^{12}-1$ integers respectively. The integers
+make 12 \textbf{perfect binary trees} where all leaves are at the
+same depth. Calculate and record the average search cost for each
+perfect binary tree. 
+\item The files \emph{1r}, \emph{2}r, ..., \emph{12r} contain same number
+of integers as above. The integers are randomly ordered and make 12
+\textbf{random binary trees}. Calculate and record the average search
+cost for each tree. 
+\item The files \emph{1l}, \emph{2l}, ..., \emph{12l} contain same number
+of integers as above. The integers are in increasing order and make
+12 \textbf{linear binary trees}. Calculate and record the average
+search cost for each tree. 
+\item Make \textcolor{black}{a table and}\textcolor{red}{{} }a plot showing
+the average search cost (y-axis) versus the number of tree nodes (x-axis)
+of all perfect binary trees, random binary trees and linear binary
+trees.
+\item Provide the output in the text format \textcolor{black}{for the files
+}\textit{\textcolor{black}{1p\textendash 4p}}\textcolor{black}{, }\textit{\textcolor{black}{1r\textendash 4r}}\textcolor{black}{,
+and }\textit{\textcolor{black}{1l\textendash 4l}}. Another option
+for tree drawing is to output elements under text mode using a queue.
+The nodes will be printed according to their depth level. Missing
+nodes will be represented by the symbol \texttt{X}. A possible solution
+is to fill the missing nodes with fake nodes in the data structure
+when printing the tree.
+
+\noun{Example:}
+\begin{lyxcode}
+5\textcolor{black}{{[}1{]}}
+
+3\textcolor{black}{{[}2{]}~9{[}2{]}}~
+
+X~X~7\textcolor{black}{{[}3{]}~10{[}3{]}}~
+
+\textcolor{black}{X~X~X~X~X~X~X~11{[}4{]}~}
+\end{lyxcode}
+\end{enumerate}
+\item \textbf{Extra credit.} 
+
+(20 points) Use the in-order traversal and any graphic programming
+library like Qt/FLTK for binary tree drawing. See the textbook, page
+301 for the algorithm. 
+\item \textbf{\textcolor{black}{Hints}}
+\begin{enumerate}
+\item \textcolor{black}{Besides using links/pointers to represent a binary
+search tree, you may store the binary tree in a vector. This implementation
+might be useful, especially for the printing of a tree level by level.
+Please refer to section 7.3.5 at p. 295 of the textbook.}
+\item \textcolor{black}{To output a binary search tree level-by-level, you
+may use breadth-first-search (BFS) algorithm based on queue.}
+\begin{enumerate}
+\item \textcolor{black}{You may use the doubly linked list class from the
+assignment 3, or use the STL queue:}\textcolor{red}{{} \href{http://www.cplusplus.com/reference/queue/queue/}{Link}}
+\item \textcolor{black}{The following is a sample of pseudo-code of the
+BFS algorithm}
+\end{enumerate}
+\begin{lyxcode}
+\textcolor{black}{Algorithm~OutputTreeLevelByLevel(BinarySearchTree~T)}
+\begin{lyxcode}
+\textcolor{black}{Queue~q}
+
+\textcolor{black}{q.enqueue(T.root)}
+
+\textcolor{black}{while~(not~q.empty())~do}
+\begin{lyxcode}
+\textcolor{black}{TreeNode~node~=~q.dequeue()}
+
+\textcolor{black}{/{*}~output~a~node~(you~need~to~determine~whether~to~output~a~newline)~{*}/}
+
+\textcolor{black}{print~node.key}
+
+\textcolor{black}{if~(there~are~still~unenqueued~non-NULL~nodes~in~the~tree)~then}
+
+\begin{lyxcode}
+\textcolor{black}{/{*}~enqueue~children~here~for~later~output~{*}/}
+
+\end{lyxcode}
+\textcolor{black}{endif}
+\end{lyxcode}
+\textcolor{black}{done}
+\end{lyxcode}
+\end{lyxcode}
+\end{enumerate}
+\end{enumerate}
+\noindent \begin{flushleft}
+\texttt{\smallskip{}
+}\textbf{Report (30 points)}
+\par\end{flushleft}
+
+Write a brief report that includes the following:
+\begin{enumerate}
+\item A description of the assignment objective, how to compile and run
+your programs, and an explanation of your program structure (i.e.,
+a description of the classes you use, the relationship between the
+classes, and the functions or classes in addition to those in the
+lecture notes).
+\item A brief description of the data structure you create (i.e., a theoretical
+definition of the data structure and the actual data arrangement in
+the classes).
+\item A description of how you implement the calculation of\textcolor{black}{{}
+(a) individual search cost and (b) average search cost and explain
+which tree operation (e.g. find, insert) was helpful. Analyze the
+time complexity of (a) calculating individual search cost and (b)
+}\textbf{summing up} the search costs over all the nodes.
+\item Give individual search cost in terms of \emph{$n$} using big-O notation.
+Analyze and give the average search costs of a perfect binary tree
+and a linear binary tree using big-O notation, assuming that the following
+formulas are true (\emph{$n$} denotes the total number of integers).
+
+$\sum_{d=0}^{\log_{2}(n+1)-1}2^{d}(d+1)\simeq(n+1)\cdot\log_{2}(n+1)-n$
+~~and~~  $\sum_{d=1}^{n}d\simeq n(n+1)/2$
+\item Include a table and a plot of average search costs you obtain. In
+your discussions of the experimental results, compare the curves of
+search costs with your theoretical analysis results in item 4.
+\end{enumerate}
+
+\end{document}
