@@ -1,0 +1,553 @@
+%% LyX 2.2.3 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english]{article}
+\usepackage{lmodern}
+\renewcommand{\sfdefault}{lmss}
+\usepackage{courier}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{geometry}
+\usepackage{color}
+\geometry{verbose,tmargin=0.8in,bmargin=0.8in,lmargin=1in,rmargin=1in,headheight=0cm,headsep=0cm}
+\usepackage{babel}
+\usepackage[unicode=true]
+ {hyperref}
+\usepackage{listings}
+
+\usepackage{xcolor} % for setting colors
+
+% set the default code style
+\lstset{
+    frame=tb, % draw a frame at the top and bottom of the code block
+    tabsize=4, % tab space width
+    showstringspaces=false, % don't mark spaces in strings
+    numbers=left, % display line numbers on the left
+    commentstyle=\color{green}, % comment color
+    keywordstyle=\color{blue}, % keyword color
+    stringstyle=\color{red} % string color
+}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+\providecommand{\LyX}{\texorpdfstring%
+  {L\kern-.1667em\lower.25em\hbox{Y}\kern-.125emX\@}
+  {LyX}}
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+\newenvironment{lyxcode}
+{\par\begin{list}{}{
+\setlength{\rightmargin}{\leftmargin}
+\setlength{\listparindent}{0pt}% needed for AMS classes
+\raggedright
+\setlength{\itemsep}{0pt}
+\setlength{\parsep}{0pt}
+\normalfont\ttfamily}%
+ \item[]}
+{\end{list}}
+
+\makeatother
+
+\begin{document}
+\begin{center}
+{\Large{}CSCE 221 Cover Page}
+\par\end{center}{\Large \par}
+
+\begin{center}
+{\Large{}Homework \#1 }
+\par\end{center}{\Large \par}
+
+\begin{center}
+{\large{}Due February 11 at midnight to eCampus}{\Large{}\bigskip{}
+\bigskip{}
+}
+\par\end{center}{\Large \par}
+
+\begin{center}
+{\large{}First Name~~Hunter ~~~~ Last Name~~Cleary~~~~~~~~~~~~UIN~625001547~~\bigskip{}
+}
+\par\end{center}{\large \par}
+
+\begin{center}
+{\large{}User Name ~~~hncleary~~~E-mail address~~~hncleary@tamu.edu~~~~}\medskip{}
+\par\end{center}
+\begin{quotation}
+Please list all sources in the table below including web pages which
+you used to solve or implement the current homework. If you fail to
+cite sources you can get a lower number of points or even zero, read
+more: \href{http://aggiehonor.tamu.edu/}{Aggie Honor System Office}
+\medskip{}
+\medskip{}
+\end{quotation}
+\begin{center}
+\begin{tabular}{|c|c|c|c|}
+\hline 
+Type of sources  & ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ & ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ & ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\tabularnewline
+ &  &  & \tabularnewline
+ &  &  & \tabularnewline
+\hline 
+\hline 
+People &  &  & \tabularnewline
+ &  &  & \tabularnewline
+ &  &  & \tabularnewline
+\hline 
+Web pages (provide URL)  & URLS Below Table \arrowdown &  & \tabularnewline
+ &  &  & \tabularnewline
+ &  &  & \tabularnewline
+\hline 
+Printed material & Data Structures and Algorithms  &  & \tabularnewline
+ &(Textbook)  &  & \tabularnewline
+ &  &  & \tabularnewline
+\hline 
+Other Sources  &  &  & \tabularnewline
+ &  &  & \tabularnewline
+ &  &  & \tabularnewline
+\hline 
+\end{tabular}
+\par\end{center}
+\textbf{URLS}\ \\
+https://en.wikibooks.org/wiki/C\%2B\%2B_Programming/Classes/Abstract_Classes\ \\
+https://en.wikipedia.org/wiki/Best,_worst_and_average_case\ \\
+https://stackoverflow.com/questions/2236197/what\-is\-the\-easiest\-way-to\-initialize\-a\-stdvector\-with\-hardcoded\-elements\ \\
+https://www.geeksforgeeks.org/binary\-search/\ \\
+https://rob-bell.net/2009/06/a-beginners-guide-to-big-o-notation/\ \\
+
+\medskip{}
+\medskip{}
+\begin{quotation}
+I certify that I have listed all the sources that I used to develop
+the solutions/codes to the submitted work.
+
+\textquotedblleft On my honor as an Aggie, I have neither given nor
+received any unauthorized help on this academic work.\textquotedblright{} 
+\end{quotation}
+\vspace{2cm}
+
+\begin{tabular}{cccccc}
+Your Name  & Hunter Cleary &  & ~~~~~~~~~~~~~~~~~~~~~ & Date  & 2/11/18\tabularnewline
+\end{tabular}\newpage{}
+\begin{quote}
+\textbf{Type solutions to the homework problems listed below using
+preferably \LyX{}/\LaTeX{} word processors, see the class webpage
+for more information about their installation and tutorials. }
+\end{quote}
+\begin{enumerate}
+\item (10 points) Write the C++ classes called \texttt{ArithmeticProgression}
+and \texttt{GeometricProgression} that are derived from the abstract
+class \texttt{Progression}, with two pure virtual functions, \texttt{getNext()}
+and \texttt{sum()}, see the course textbook p. 87\textendash 90 for
+more details. Each subclass should implement these functions in order
+to generate elements of the sequences and their sums. Test your program
+for the different values of $d$, $r$ and the number of elements
+$n$ in each progression. \\
+What is the classification of those functions: \texttt{getNext()}
+and \texttt{sum()} in terms of the Big-O notation?
+
+Recall the definitions of the arithmetic and geometric progressions. 
+
+\textbf{\emph{Definition}}: An \emph{arithmetic progression} with
+the initial term $a$ and the common real difference $d$ is a sequence
+of the form
+
+$a,a+d,a+2d,\ldots,a+nd,\ldots$
+
+\textbf{\emph{Definition}}: A \emph{geometric progression} with the
+initial term $a$ and the common real ratio $r$ is a sequence of
+the form
+
+$a,ar,ar^{2},\dots,ar^{n},\dots$
+\begin{lstlisting}[language=C++, caption={Progression}]
+#include<iostream>
+#include<math.h> //power function for geometric progression
+
+using namespace std;
+
+class Progression{
+    public:
+    virtual int getnext() = 0;
+    virtual int sum() = 0;
+    
+    void setCurrenVal(int a){
+        currentVal = a;
+    }
+    void setIncrement(int d){
+        increment = d;
+    }
+    
+    void setRatio(int r){
+        ratio = r;
+    }
+    void setFirstValue(int f){
+        firstValue = f;
+    }
+    void setElementNumber(int n){
+        elementNumber = n;
+    }
+    protected:
+    int currentVal;
+    int elementNumber = 0;
+    int increment;
+    int ratio;
+    int firstValue;
+};
+
+class ArithmeticProgression : public Progression{
+    public:
+    int getnext(){
+        currentVal = (currentVal + (increment*elementNumber));
+        ++elementNumber;
+        return currentVal;
+    }
+    //adds up values until provided element number
+    int sum(int s){
+        int total;
+        for(int i = 1; i < s; ++i){
+            total = currentVal + getnext(i);
+        }
+    }
+};
+class GeometricProgression : public Progression{
+    public:
+    int getnext(){
+        currentVal = (firstValue * (pow(ratio,(elementNumber+1))));
+        ++elementNumber;
+        return currentVal;
+    }
+    //adds up values until provided element number
+    int sum(int s){
+        int total;
+        for(int i = 1; i < s; ++i){
+            total = currentVal + getnext(i);
+        }
+    }
+};
+int main(void){
+    ArithmeticProgression linear;
+    linear.setCurrenVal(0);
+    linear.setIncrement(2);
+    lineear.setFirstValue(1);
+    cout << linear.getnext() << endl;
+    cout << linear.sum() << endl;
+    
+    GeometricProgression ratio;
+    ratio.setCurrenVal(0);
+    ratio.setRatio(2);
+    ratio.setFirstValue(2);
+    cout << ratio.getnext() << endl;
+    cout << ratio.sum() << endl;
+    return 0;
+}
+\end{lstlisting}
+
+\begin{compactenum}
+\textbf{Classifications}\ \\
+\ \\
+The classification of the getnext() function is O(1). The function only accesses what number comes next in the series. the classification of the sum() function is O(n). This function adds each numbers in a series to the previous. Run time is dependent on the length of the series. 
+\end{compactenum}
+
+\vfill{}
+\pagebreak{}
+\item (10 points) Use the STL class \texttt{vector<double>} to write a C++
+function that takes two vectors, \texttt{a} and \texttt{b}, of the
+same size and returns a vector \texttt{c} such that $c[i]=a[i]\cdot b[i]$.
+How many scalar multiplications are used to create elements of the
+vector \texttt{c} of size $n$? What is the classification of this
+algorithm in terms of the Big-O notation?\ \\
+\begin{lstlisting}[language=C++, caption={Vector Multiplication}]
+#include <iostream>
+#include <vector>
+using namespace std;
+vector<double> vectorMultiply(vector<double> a, vector<double> b){
+    vector<double> c;
+    if(a.size()==b.size()){
+        for(int i = 0; i < a.size(); ++i){
+        c.push_back(a[i]*b[i]);
+        }
+    }
+    else{
+        c.push_back(0);
+        cout << "Invalid vector sizes." << endl;
+    }
+    return c;
+}
+
+int main()
+{
+    vector<double> a{ 10, 20, 35};
+    vector<double> b{ 15, 35, 35};
+    for (int x : a)
+        cout << x << " ";
+    cout << endl;
+    for (int x : b)
+        cout << x << " ";
+    cout << endl;
+    
+    for( int y : vectorMultiply(a,b))
+        cout << y << " ";
+        
+}
+\end{lstlisting}
+\begin{compactenum}
+\textbf{Classification}\ \\
+\ \\
+The number of scalar multiplications used to create the elements in vector c of size n is equal to n. The number of operations scales directly with the size of the original two vectors and is therefore classified as O(n).
+\end{compactenum}
+\pagebreak{}
+\item (10 points) Use the STL class \texttt{vector<int>} to write a C++
+function that returns true if there are two elements of the vector
+for which their product is odd, and returns false otherwise. Provide
+a formula on the number of scalar multiplications in terms of $n$,
+the length of the vector, to solve the problem in the best and the
+worst cases. Describe the situations of getting the best and worst
+cases. What is the classification of the algorithm in the best and
+worst cases in terms of the Big-O notation?\ \\
+\begin{lstlisting}[language=C++, caption={Vector Product Test}]
+#include <iostream>
+#include <vector>
+using namespace std;
+bool vectorMultiplyTest(vector<int> a, vector<int> b){
+    bool j;
+    int i = 0;
+    vector<int> c;
+        while( j == false && i < a.size() ){
+                for(int q = 0; q < b.size(); ++q){
+                    if( (a[i]*b[q])%2 == 1){
+                    j = true;
+                    ++i;
+                    }
+                    else{
+                        ++i;
+                    }
+                }
+            }
+    return j;
+}
+\end{lstlisting}
+\textbf{Classification}\ \\
+\begin{compactenum}
+In the best case, the function will find an odd value after multiplying the first values of both vectors. In the worst case, the function will onyl find even values or find an odd value by multiplying the last points of both vectors. Best case = 1.(O(1)) Worst case = (size of vector 1) * (size of vector 2)$\to n*n \to n^2$. This results in the classifcation O(n^2).\ \\ 
+\end{compactenum}
+\pagebreak{}
+\item (20 points) Write a templated C++ function called \texttt{BinarySearch}
+which searches for a target \texttt{x} of any numeric type \texttt{T},
+and test it using a sorted vector of type \texttt{T}. Provide the
+formulae on the number of comparisons in terms of $n$, the length
+of the vector, when searching for a target in the best and the worst
+cases. Describe the situations of getting the best and worst cases.
+What is the classification of the algorithm in the best and worst
+cases in terms of the Big-O notation?
+\begin{lstlisting}[language=C++, caption={Templated Search}]
+#include<iostream> 
+#include<iostream> 
+#include<vector>
+using namespace std;
+template<typename T>
+int BinarySearch(T x, vector<T> v){
+    int p;
+    int midpoint = (v.size() / 2);
+    bool j = false;
+    int end = v.size();
+    int start = 0;
+    int temp;
+    while ( j == false){
+        if( v[midpoint] == x ){
+            j = true;
+            p = midpoint;
+        }
+        else if( v[midpoint+1] == x ){
+            j = true;
+            p = midpoint+1;
+        }
+        else if( v[midpoint-1] == x ){
+            j = true;
+            p = midpoint-1;
+        }
+        else if(v[midpoint] > x){
+            temp = midpoint;
+            midpoint = (end-midpoint)/2;
+            start = temp;
+        }
+        else if((v[midpoint] < x)){
+            temp = midpoint;
+            midpoint = (start-midpoint);
+            end = temp;
+        }
+    }
+    return p;
+}
+
+int main(){
+vector<int> v1{1,2,3,5,7,9,11,15};
+
+cout << "The value is located at: " << BinarySearch(9, v1) << " ";
+    
+}
+\end{lstlisting}
+\begin{compactenum}\ \\
+\ \\ \\ \\ \\
+\textbf{Classification}\ \\
+\ \\
+In the best case scenario, the binary search function will find the value located at the midpoint of the vector. The best case performance is O(1). In the worst case, the value will be found using the highest number of midpoints. This results in a worst case of $log_2(n)$ operations, classified at O(logn).
+
+\end{compactenum}
+\ \\ \\
+%\newpage{}
+\item (10 points) \textbf{(R-4.7 p. 185)} The number of operations executed
+by algorithms $A$ and $B$ is $8n\log n$ and $2n^{2}$, respectively.
+Determine $n_{0}$ such that $A$ is better than $B$ for $n\geq n_{0}$.
+\ \\ \\
+\begin{compactenum}
+Solve for n:\ \\
+$8nlogn = 2n^2$\ \\
+$8logn=2n$\ \\
+$4logn=n$\ \\
+$4 = (n)/(logn)$\ \\
+$n = 16$\ \\
+$\therefore n >= 16$\ \\
+\end{compactenum}
+\item (10 points) \textbf{(R-4.21 p. 186)} Bill has an algorithm, \texttt{find2D},
+to find an element $x$ in an $n\times n$ array $A$. The algorithm
+\texttt{find2D} iterates over the rows of A, and calls the algorithm
+\texttt{arrayFind}, see Code Fragment 4.5, p. 184, on each row, until
+$x$ is found or it has searched all rows of A. What is the worst-case
+running time of \texttt{find2D} in terms of $n$? What is the worst-case
+running time of \texttt{find2D} in terms of $N$, where $N$ is the
+total size of A? Would it be correct to say that \texttt{find2D} is
+a linear-time algorithm? Why or why not?\ \\
+\\
+\begin{compactenum}
+\textbf{Answer}\ \\
+The worst case running time for find2d in terms of n is $O(n^2)$. It will execute operations for rows * columns (n*n). The worst case running time in terms of N is O(N). The algorithm will have to perform the operation on all points in the array (N) once. It would be correct to say that find2d is a linear time algorithm. The operation is used for N elements in an array. 
+\end{compactenum}\ \\
+
+\item (10 points) \textbf{(R-4.39 p. 188)} Al and Bob are arguing about
+their algorithms. Al claims his $O(n\log n)$-time method is \textbf{always}
+faster than Bob's $O(n^{2})$-time method. To settle the issue, they
+perform a set of experiments. To Al's dismay, they find that if $n<100$,
+the $O(n^{2})$-time algorithm runs faster, and only when $n\geq100$
+is the $O(n\log n)$-time algorithm better. Explain how this is possible.\ \\
+\ \\
+\begin{compactenum}
+\textbf{Answer}\ \\
+Bob's algorithm is only effective for small inputs. If the input is large (n >= 100), then Al's will be more efficient because $100log100 < 100^2$.
+\end{compactenum}
+\pagebreak{}
+\item (20 points) Find the running time functions for the algorithms below
+and write their classification using Big-O asymptotic notation. The
+running time function should provide a formula on the number of operations
+performed on the variabl\texttt{e} $s$. Note that array indices start
+from $0$.
+\begin{lyxcode}
+\textbf{Algorithm}~Ex1(A):
+
+\textbf{~~Input}:~An~array~A~storing~$n\geq1$~integers.
+
+\textbf{~~Output}:~The~sum~of~the~elements~in~A.
+
+$s\leftarrow A[0]$
+
+\textbf{for}~$i\leftarrow1$~to~$n-1$~\textbf{do}
+
+~~~$s\leftarrow s+A[i]$
+
+\textbf{end~for}
+
+\textbf{return}~$s$
+\ \\
+\ \\
+\color{blue}
+\textbf{Answer}\ \\
+Total Operations = (n-1) * 2 + 1 = n-1   \ \\
+Notation = O(n)
+\color{black}
+\ \\ 
+\ \\
+
+\textbf{Algorithm}~Ex2(A):
+
+\textbf{~~Input}:~An~array~A~storing~$n\geq1$~integers.
+
+\textbf{~~Output}:~The~sum~of~the~elements~at~even~positions~in~A.
+
+$s\leftarrow A[0]$
+
+\textbf{for}~$i\leftarrow2$~\textbf{to}~$n-1$~\textbf{by~}increments~of~2\textbf{~do}
+
+~~$s\leftarrow s+A[i]$
+
+\textbf{end~for}
+
+\textbf{return}~$s$
+\ \\
+\ \\
+\color{blue}
+\textbf{Answer}\ \\
+Total Operations = n/2 + n/2 -1 + 1 + 1 = n + 1\ \\
+Notation = O(n)
+\color{black}
+\ \\ 
+\ \\
+\textbf{Algorithm}~Ex3(A):
+
+~~~\textbf{Input}:~An~array~A~storing~$n\geq1$~integers.
+
+\textbf{~~~Output}:~The~sum~of~the~partial~sums~in~A.
+
+$s\leftarrow0$
+
+\textbf{for}~$i\leftarrow0$~~\textbf{to}~$n-1$~\textbf{do}
+
+~~~$s\leftarrow s+A[0]$
+
+\textbf{~~~for}~$j\leftarrow1$~\textbf{to}~$i$~\textbf{do}
+
+~~~~~$s\leftarrow s+A[j]$
+
+~~~\textbf{end~for}
+
+\textbf{end~for}
+
+\textbf{return}~$s$
+\ \\
+\ \\
+\color{blue}
+\textbf{Answer}\ \\
+Total Operations = $2n + (2(1-2^n-1)/(1-2) * n = 2n + 2^n - 2n = 2^n*n $ \ \\
+Notation = $O(n2^n)$
+\color{black}
+\ \\ 
+\ \\
+\textbf{Algorithm}~Ex4(A):
+
+~~~\textbf{Input}:~An~array~A~storing~$n\geq1$~integers.
+
+\textbf{~~~Output}:~The~sum~of~the~partial~sums~in~A.
+
+$t\leftarrow0$
+
+$s\leftarrow0$
+
+\textbf{for}~$i\leftarrow1$~\textbf{to}~$n-1$~\textbf{do}~
+
+~~~$s\leftarrow s+A[i]$
+
+~~~$t\leftarrow t+s$
+
+\textbf{end~for}
+
+\textbf{return}~$t$
+\ \\
+\ \\
+\color{blue}
+\textbf{Answer}\ \\
+Total Operations = 2 + 4(n-1) = 4n -4 +2 = 4n -2\ \\
+Notation = O(n)
+\color{black}
+\ \\ 
+\ \\
+\end{lyxcode}
+\end{enumerate}
+
+\end{document}

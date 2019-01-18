@@ -1,0 +1,229 @@
+%% LyX 2.2.3 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english]{article}
+\usepackage{mathptmx}
+\usepackage{helvet}
+\usepackage{courier}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{geometry}
+\geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in,headheight=0in,headsep=0in}
+\pagestyle{empty}
+\usepackage{color}
+\usepackage{babel}
+\usepackage[unicode=true]
+ {hyperref}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+\newenvironment{lyxcode}
+{\par\begin{list}{}{
+\setlength{\rightmargin}{\leftmargin}
+\setlength{\listparindent}{0pt}% needed for AMS classes
+\raggedright
+\setlength{\itemsep}{0pt}
+\setlength{\parsep}{0pt}
+\normalfont\ttfamily}%
+ \item[]}
+{\end{list}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\date{}
+
+\makeatother
+
+\begin{document}
+\begin{center}
+\textbf{\large{}CSCE 221 Assignment 3 Cover Page}\\
+\bigskip{}
+\par\end{center}
+
+First Name~~Hunter~~~~~~~~~~Last
+Name ~~~Cleary~~~~~~~~UIN~~625001547~~\bigskip{}
+
+User Name ~~~hncleary~~~~E-mail
+address~~~~hncleary@tamu.edu~~~\medskip{}
+
+Please list all sources in the table below including web pages which
+you used to solve or implement the current homework. If you fail to
+cite sources you can get a lower number of points or even zero, read
+more on Aggie Honor System Office website: \texttt{\href{http://aggiehonor.tamu.edu/}{http://aggiehonor.tamu.edu/}}\medskip{}
+\medskip{}
+\noindent \begin{flushleft}
+\begin{tabular}{|c|c|c|c|c|}
+\hline 
+Type of sources  & ~~~~~~~~~~~~~~~~~~~~~~~ & ~~~~~~~~~~~~~~~~~~~~~~~~ & ~~~~~~~~~~~~~~~~~~~~~~~ & ~~~~~~~~~~~~~~~~~~~~~~~\tabularnewline
+ &  &  &  & \tabularnewline
+\hline 
+People &  &  &  & \tabularnewline
+ &  &  &  & \tabularnewline
+\hline 
+Web pages (provide URL)  &  &  &  & \tabularnewline
+ &  &  &  & \tabularnewline
+\hline 
+Printed material &  &  &  & \tabularnewline
+ &  &  &  & \tabularnewline
+\hline 
+Other Sources  &  &  &  & \tabularnewline
+ &  &  &  & \tabularnewline
+\hline 
+\end{tabular}
+\par\end{flushleft}
+
+\medskip{}
+\medskip{}
+
+\noindent I certify that I have listed all the sources that I used
+to develop the solutions/codes to the submitted work.
+
+\noindent \emph{On my honor as an Aggie, I have neither given nor
+received any unauthorized help on this academic work}.
+
+\bigskip{}
+\bigskip{}
+
+\begin{tabular}{cccccc}
+Your Name  & ~~~Hunter Cleary~~ &  & ~~~~~~~~~~~~~~~~~~~~~ & Date  & ~~~3-8-18~~\tabularnewline
+\end{tabular}
+
+\title{\newpage{}}
+\maketitle
+\begin{center}
+\textbf{\Large{}CSCE 221 Assignment 3 }
+\par\end{center}{\Large \par}
+
+\begin{center}
+\textbf{\Large{}Spring 2018}
+\par\end{center}{\Large \par}
+
+\author{\emph{due to eCampus by March 9, and demonstration of Part 1 in labs
+on February 26/27}}
+
+\section*{Objective }
+
+This is an individual assignment which has two parts. 
+\begin{enumerate}
+\item Part 1: C++ implementation of \texttt{DoublyLinkedList} for \texttt{int}
+and generic types based on the provided supplementary code. 
+\item Part 2: C++ implementation of \texttt{\textcolor{black}{MinQueue}}
+data structure that can store \emph{comparable elements.} 
+\end{enumerate}
+
+\section*{Part 1: Implementation of DoublyLinkedList}
+\begin{enumerate}
+\item Untar supplementary code \texttt{221-A3-code.tar}. Use the 7-zip software
+to extract the files in Windows, or use the following command in Linux.
+\begin{lyxcode}
+tar~xfv~221-A3-code.tar
+\end{lyxcode}
+\item \texttt{DoublyLinkedList} for integers
+\begin{enumerate}
+\item Most of the code is extracted from the lecture slides. An exception
+structure is defined to complete the program.
+\item You need to complete the functions which are declared in the header
+file \texttt{DoublyLinkedList.h}.
+\item Type the following commands to compile the program
+\begin{lyxcode}
+make
+\end{lyxcode}
+\item The main program includes examples of creating doubly linked lists,
+and demonstrates how to use them. Type the following command to run
+the executable file:
+\begin{lyxcode}
+./run-dll
+
+\end{lyxcode}
+\item Test the doubly linked list functions in \texttt{main}. 
+\end{enumerate}
+\item Implement a templated version of the class \texttt{DoublyLinkedList}
+and test the functions for correctness. Follow the instructions below:
+\begin{enumerate}
+\item Templates should be declared and defined in a header \texttt{.h} file.
+Move the content of \texttt{DoublyLinkedList.cpp} and \texttt{DoublyLinkedList.h}
+to \texttt{TemplateDoublyLinkedList.h} 
+\item Replace \texttt{int obj} by \texttt{T obj} in the \texttt{struct}
+\texttt{DListNode} so the list nodes store generic \texttt{T} objects
+instead of integers. Later on, when a \texttt{DListNode} object is
+created, say, in the main function, \texttt{T} can be specified as
+a \texttt{char}, \texttt{string} or a user-defined class.
+\item To create a templated class with a generic type \texttt{T}, you must
+replace a declaration/return type \texttt{int} by \texttt{T} (except
+for the \texttt{count} variable). 
+\begin{enumerate}
+\item To use the generic type \texttt{T}, you must change each type declaration.
+\item Use the generic type \texttt{T} anywhere throughout the class \texttt{TemplateLinkedList}.
+\end{enumerate}
+\item Add the keyword \texttt{template <typename T>} before a class declaration. 
+\item In each member function signature, replace \texttt{DoublyLinkedList::}
+by \texttt{DoublyLinkedList<T>::}
+\item If a member function is defined outside the class declaration, change
+the function signature, that is, replace \texttt{LinkedList::} by
+\texttt{TemplateLinkedList<T>::}
+\item To use the generic type \texttt{T} anywhere throughout the class \texttt{DListNode}
+and \texttt{DoublyLinkedList}, you must declare (add) \texttt{template
+<typename T>} before classes and member functions defined outside
+the class declaration.
+\end{enumerate}
+\item Compile and run the generic version in a similar way as for \texttt{int}
+type. Type the following commands to compile the program.
+\begin{lyxcode}
+make
+\end{lyxcode}
+\item The main program includes examples of creating doubly linked lists
+of \texttt{string}, and demonstrates how to use them. Type the following
+command to run the executable.
+\begin{lyxcode}
+./run-tdll
+\end{lyxcode}
+\end{enumerate}
+
+\section*{Part 2: Implementation of MinQueue data structure based on DoublyLinkedList}
+
+\textcolor{black}{The }\texttt{\textcolor{black}{MinQueue}} data structure
+should store \emph{the comparable elements} that support the queue
+operations: \texttt{\textcolor{black}{enqueue(x)}}\texttt{,} \texttt{\textcolor{black}{dequeue()}},
+\texttt{\textcolor{black}{size()}},\texttt{\textcolor{black}{{} isEmpty()}},
+and in addition the \texttt{\textcolor{black}{min()}}\textcolor{black}{{}
+operation} that returns (but not deletes) the smallest value currently
+stored in the queue. 
+
+Use the adapter design pattern for implementation of \texttt{\textcolor{black}{MinQueue}}
+that work together with the class \texttt{DoublyLinkedLists} defined
+in the Part 1. The runtime worst case of all operations except \texttt{\textcolor{black}{min()}}
+should be \textcolor{black}{\emph{constant,}} $O(1)$.
+
+The implementation details of the \texttt{\textcolor{black}{MinQueue}}\textcolor{black}{{}
+operations, justification of their running time, and tests for correctness
+should be provided in the part 2 of the report. }
+
+\section*{What to submit to eCampus?}
+\begin{itemize}
+\item Create a directory for the Part 1 that includes: \texttt{DoublyLinkedList}
+source code for \texttt{int} and generic types, typed report with
+description of the linked list implementation, complexity analysis
+of code expressed in terms of big-O, and the test cases done for correctness.
+\item Create a directory for the Part 2 that includes: \texttt{Min}Queue
+source code, typed report with description of the \texttt{Min}Queue
+class implementation, complexity analysis of code expressed in terms
+of big-O, and the test cases done for correctness. 
+\item Make a tar file that contains the Part 1 and Part 2 directories and
+submit it to eCampus for grading.
+\end{itemize}
+
+\newpage
+\begin{compactenum}
+Programming Assignment #3 Report\ \\ 
+Description DS & Algorithms for DLL and MinQueue (5)\ \\
+Complexity of functions in Part I (5)\ \\
+Complexity of functions in Part 2 (5)\ \\
+Testing evidence (5)\ \\ 
+
+
+
+\end{compactenum}
+\end{document}
